@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* Masala 1 */
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.todos-heading {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 36px;
+}
+
+.todo-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.todo-form input {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.todo-form div {
+    width: 100%;
+    text-align: center;
+}
+
+.todo-form div button {
+    padding: 7px 15px;
+    background-color: rgb(30, 210, 54);
+    border-radius: 5px;
+    border: 2px solid green;
+    color: #fff;
+    transition: all 0.7s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.todo-form div button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.todo-list {
+    margin-top: 30px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgb(101, 216, 113);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.todo-item .fa-xmark {
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.fa-xmark:hover {
+    transform: scale(2);
+    color: rgb(39, 92, 65);
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+
+/* Masala 2 */
+
+/* .keyboard {
+    width: 600px;
+    background-color: rgb(213, 206, 206);
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 300px;
+    cursor: move;
+    position: absolute;
+} */
